@@ -1,0 +1,76 @@
+
+.atomic_num{
+	font-size:7px;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+}
+.element_symbol{
+	cursor:pointer;
+}
+.border{
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+}
+
+
+.element:hover{
+	background-color:rgb(240,250,230);
+}
+
+
+
+.element_box{
+	border-style:solid;
+	border-width:1px;
+	text-align:center;
+	height:30px;
+	width:26px;
+	display:inline-block;
+	vertical-align:top;
+	padding:1px;
+	margin:-1px;
+	margin-bottom:2px;
+}	
+
+.element_text{
+	
+	cursor:pointer;
+}
+.hidden{
+	display:none;
+}
+.lanth{
+	  /* margin is getting introduced somewhere... */
+}
+.non-element{
+	border-color:white;
+	
+}
+#periodic_table{
+	position:absolute;
+	z-index:10;
+	background-color:white;
+	border-radius:3px;
+	padding:10px;
+}
+#ptable{
+	text-align:center;
+}
+#ptable_lanthanides{
+	margin-top:10px;
+}
+#ptable_title{
+	margin-left:184px;
+	margin-top:20px;
+	font-size:20px;
+	position:absolute;
+}
+.element{
+	border-color:black;
+	background-color:rgb(255,223,227);
+	cursor:pointer;
+	display:inline-block;
+	
+}
